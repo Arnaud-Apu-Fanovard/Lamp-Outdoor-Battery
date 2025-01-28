@@ -1,4 +1,4 @@
-25015268184616523
+25017006197264317
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64126,6 +64126,13 @@ solder jumper open
 0
 5
 3
+LAMP_OUTDOOR_BATTERY
+BatteryPole
+
+
+0
+1
+1
 LAMP_OUTDOOR_BATTERY
 MCP73833
 
