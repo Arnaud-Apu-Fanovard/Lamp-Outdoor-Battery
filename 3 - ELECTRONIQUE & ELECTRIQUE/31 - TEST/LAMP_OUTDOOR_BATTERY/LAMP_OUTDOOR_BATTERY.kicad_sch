@@ -7711,7 +7711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LAMP_OUTDOOR_BATTERY:IND_F1C1-201608-4R7M"
 			(at 193.04 101.6 0)
 			(effects
 				(font
@@ -8670,72 +8670,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 99.06 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b71bb8de-3019-48da-82cf-65a2a4da9031")
-		(property "Reference" "#PWR025"
-			(at 99.06 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 99.06 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44af48d5-7eef-491d-aea8-a85bd20e2cba")
-		)
-		(instances
-			(project "LAMP_OUTDOOR_BATTERY"
-				(path "/77872c89-7cd3-4b01-8286-04ddd44a2a11"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 187.96 38.1 0)
 		(unit 1)
@@ -9130,6 +9064,72 @@
 			(project "LAMP_OUTDOOR_BATTERY"
 				(path "/77872c89-7cd3-4b01-8286-04ddd44a2a11"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 99.06 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c80d1af9-b3eb-42e5-a898-20d08d4dba33")
+		(property "Reference" "#PWR025"
+			(at 99.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a66237b9-87b8-49c9-97f4-2c6e4dde3ebc")
+		)
+		(instances
+			(project "LAMP_OUTDOOR_BATTERY"
+				(path "/77872c89-7cd3-4b01-8286-04ddd44a2a11"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
