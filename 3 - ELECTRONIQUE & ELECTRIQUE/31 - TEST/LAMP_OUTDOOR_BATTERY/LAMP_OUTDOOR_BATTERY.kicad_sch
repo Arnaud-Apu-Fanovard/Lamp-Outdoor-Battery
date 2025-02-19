@@ -5181,6 +5181,16 @@
 		)
 		(uuid f1afe63d-cfec-4feb-8fac-ea995fadb6a5)
 	)
+	(text "C5 -> typical values 2.2nF to 50nF depending on the sensitivity required\nR10 -> limit ESD currents and suppress radio frequenxy interference (RFI), should be 4.7k to 33k\nR11 -> 1M ohms"
+		(exclude_from_sim no)
+		(at 61.214 146.304 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "097ddb82-f178-4782-bdf9-1e49f53138f9")
+	)
 	(text "Convertisseur Boost 3.7V-5V"
 		(exclude_from_sim no)
 		(at 182.88 87.376 0)
@@ -6174,7 +6184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "1M"
 			(at 41.91 126.9999 0)
 			(effects
 				(font
@@ -7772,7 +7782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "10K"
 			(at 41.91 109.2199 0)
 			(effects
 				(font
@@ -9810,7 +9820,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "10nF"
 			(at 45.974 115.57 0)
 			(effects
 				(font
